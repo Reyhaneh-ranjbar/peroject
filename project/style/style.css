@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: Vazirmatn, sans-serif;
+    direction: rtl;
+}
+#menu{
+    background-color: rgb(230, 229, 229);
+    padding: 25px; 
+    display: flex;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+   justify-content: space-between;
+   padding: 4px 10px;
+}
+.home{
+    background-color: rgb(8, 164, 236);
+
+}
+@media(max-width: 500px){
+#menu{
+flex-direction: column;
+}
+.home{
+    width: 55px;
+}
+}
